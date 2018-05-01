@@ -350,6 +350,7 @@ PRODUCT_COPY_FILES += \
 
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
+    LineageSdkOverlayBlossom \
     FrameworksResOverlayBlossom \
     SettingsOverlayBlossom \
     SystemUIOverlayBlossom \
