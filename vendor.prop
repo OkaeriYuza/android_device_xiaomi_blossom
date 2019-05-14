@@ -53,6 +53,9 @@ ro.telephony.iwlan_operation_mode=default
 ro.telephony.sim.count=2
 telephony.active_modems.max_count=2
 
+# Recovery
+ro.recovery.ui.blank_unblank_on_init=true
+
 # Wi-Fi
 wifi.concurrent.interface=ap0
 
