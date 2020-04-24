@@ -341,7 +341,8 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayBlossom \
     SettingsOverlayBlossom \
     SystemUIOverlayBlossom \
-    TelephonyOverlayBlossom
+    TelephonyOverlayBlossom \
+    WifiResOverlayBlossom
 
 # Sensors
 PRODUCT_PACKAGES += \
