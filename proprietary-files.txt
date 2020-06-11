@@ -1,6 +1,11 @@
 # Unpinned blobs from arrow_blossom-userdebug 11 RQ3A.211001.001 eng.adarsh.20240615.133448 release-keys
 # merlin-11 blobs from Redmi/merlin/merlin:11/RP1A.200720.011/V12.5.6.0.RJOINXM:user/release-keys
+# begonia-11 blobs from Redmi/begonia/begonia:11/RP1A.200720.011/V12.5.4.0.RGGCNXM:user/release-keys
 # Teracube 2e blobs from Teracube/Teracube_2e/Teracube_2e:11/RP1A.200720.011/202111011925:user/release-keys
+
+# aptX - from begonia-11
+lib64/libaptX_encoder.so|9e87fed4eac0e9fe428eaf8d0db7a1af89d521e1
+lib64/libaptXHD_encoder.so|043c055498f6e6e2b0564ad35ea17b012844cbce
 
 # Audio
 vendor/lib/hw/audio.primary.mt6765.so
