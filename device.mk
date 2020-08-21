@@ -341,6 +341,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayBlossom \
     SystemUIOverlayBlossom \
     TelephonyOverlayBlossom \
+    TetheringConfigOverlayBlossom \
     WifiResOverlayBlossom
 
 # Sensors

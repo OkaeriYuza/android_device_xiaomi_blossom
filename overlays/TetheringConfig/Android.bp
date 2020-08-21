@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "TetheringConfigOverlayBlossom",
+    theme: "TetheringConfigOverlay",
+    sdk_version: "current",
+    resource_dirs: ["res"],
+    vendor: true,
+}
