@@ -16,6 +16,9 @@ $(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
 # include private signing keys
 -include vendor/niigo-priv/keys/keys.mk
 
+# Kasumi flags
+KASUMI_INCLUDE_GCGOP := true
+
 PRODUCT_DEVICE := blossom
 PRODUCT_NAME := kasumi_blossom
 PRODUCT_BRAND := Redmi
