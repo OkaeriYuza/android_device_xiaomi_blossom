@@ -169,6 +169,7 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 include vendor/xiaomi/blossom/BoardConfigVendor.mk
