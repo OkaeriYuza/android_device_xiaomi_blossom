@@ -338,7 +338,8 @@ PRODUCT_COPY_FILES += \
 
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayBlossom
+    FrameworksResOverlayBlossom \
+    SettingsOverlayBlossom
 
 # Sensors
 PRODUCT_PACKAGES += \
