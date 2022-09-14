@@ -75,6 +75,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.blossom
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1 \
