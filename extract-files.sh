@@ -54,22 +54,11 @@ if [ -z "${SRC}" ]; then
 fi
 
 function blob_fixup() {
-    # case "${1}" in
-    #     vendor/lib/libsample1.so)
-    #         sed -i 's|/data/misc/sample1|/data/misc/sample2|g' "${2}"
-    #         ;;
-    #     vendor/lib64/libsample2.so)
-    #         "${PATCHELF}" --remove-needed "libsample3.so" "${2}"
-    #         "${PATCHELF}" --add-needed "libsample4.so" "${2}"
-    #         ;;
-    #     vendor/lib/libsample5.so)
-    #         "${PATCHELF}" --replace-needed "libsample6.so" "libsample7.so" "${2}"
-    #         ;;
-    #     vendor/lib/libsample7.so)
-    #         "${PATCHELF}" --set-soname "libsample7.so" "${2}"
-    #         ;;
-    # esac
-    :
+    case "${1}" in
+	vendor/lib*/libwifi-hal-mtk.so)
+            "$PATCHELF" --set-soname libwifi-hal-mtk.so "${2}"
+            ;;
+    esac
 }
 
 # Initialize the helper
