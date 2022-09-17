@@ -52,6 +52,11 @@ PRODUCT_CHARACTERISTICS := default
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.mt6765.rc \
+    init.recovery.mt6762.rc
+
 # HACK: Avoid usb crash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
     persist.adb.nonblocking_ffs=0 \
