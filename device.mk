@@ -220,6 +220,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power@1.3.vendor
 
+# WLAN
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy.blossom
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
