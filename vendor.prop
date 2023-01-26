@@ -1,6 +1,9 @@
 # AAL
 persist.vendor.sys.mtkaal.function=0
 
+# Brightness curve
+persist.sys.brightness.low.gamma=true
+
 # Camera
 camera.disable_zsl_mode=1
 vendor.camera.mdp.cz.enable=1
