@@ -537,11 +537,8 @@ vendor/lib/hw/gatekeeper.beanpod.so|50ecee638835be73863125bcc03198b10ff5f10f
 vendor/lib64/hw/gatekeeper.beanpod.so|8b19e982a760fbbc01124bf33ac94c7a452a71cb
 
 # Gatekeeper
-vendor/bin/teei_daemon
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
-vendor/lib/libTEECommon.so
-vendor/lib/libimsg_log.so
 
 # Gatekeeper configs
 vendor/thh/ta/04190000000000000000000000000000.ta
@@ -590,7 +587,6 @@ vendor/etc/init/fuelgauged_init.rc
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
-vendor/bin/bp_kmsetkey_ca
 vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 vendor/lib/hw/kmsetkey.beanpod.so
@@ -731,6 +727,18 @@ vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
 vendor/lib/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal.mt6765.so
+
+# TEE - from merlin-11
+vendor/bin/bp_kmsetkey_ca|a1a519c74556f2b2498f7b2f804103e1ddd0ed59
+vendor/bin/teei_daemon|94b1e3693856ac14ea9747940afe72c38ea7b976
+vendor/lib/libTEECommon.so|e992223c6c1700d5653b4ff1baa0358a9548d0d3
+vendor/lib/libimsg_log.so|a1a240d5f47e223a09a7c2432cbf3343ad209783
+vendor/lib/libteeclientjni.so|a5a259c03b59cc9af654d67938a3f8705df17146
+vendor/lib/libteeclientjni@1.1.so|71451e8ca89fa4da72757064f463c45af1278cb1
+vendor/lib64/libTEECommon.so|f1cfd2ea06ebef9111b70fa14762414e2ae8c1ca
+vendor/lib64/libimsg_log.so|60c0a1294c2c0c5d3552d47b5704b99e4ce80ada
+vendor/lib64/libteeclientjni.so|4a4827b095102935cec9b037c28d5b5566fce38e
+vendor/lib64/libteeclientjni@1.1.so|3bc0c8492dcdd1dddd70c5d9d2e206c29b7d6ae1
 
 # Vibrator
 vendor/bin/hw/android.hardware.vibrator-service.mediatek
@@ -1113,9 +1121,7 @@ vendor/lib/libsensor_custom.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libstorage_otp.so
-vendor/lib/libteeclientjni@1.1.so
 vendor/lib/libthermalalgo.so
-vendor/lib/libthha.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_utils.so
