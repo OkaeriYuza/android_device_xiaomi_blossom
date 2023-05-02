@@ -1,4 +1,5 @@
 # Unpinned blobs from arrow_blossom-userdebug 11 RQ3A.211001.001 eng.adarsh.20240615.133448 release-keys
+# merlin-11 blobs from Redmi/merlin/merlin:11/RP1A.200720.011/V12.5.6.0.RJOINXM:user/release-keys
 
 # Audio
 vendor/lib/hw/audio.primary.mt6765.so
@@ -531,11 +532,16 @@ vendor/lib/hw/fingerprint.focaltech.default.so
 vendor/lib/hw/fingerprint.fpc.default.so
 vendor/lib/com.fingerprints.extension@1.0.so
 
+# Gatekeeper - from merlin-11
+vendor/lib/hw/gatekeeper.beanpod.so|50ecee638835be73863125bcc03198b10ff5f10f
+vendor/lib/hw/libSoftGatekeeper.so|86d13f4097659098f9f337b40221a25b25ea0d0b
+vendor/lib64/hw/gatekeeper.beanpod.so|8b19e982a760fbbc01124bf33ac94c7a452a71cb
+vendor/lib64/hw/libSoftGatekeeper.so|13f388a6e20cb3e696ee53d444a0e2042834c021
+
 # Gatekeeper
 vendor/bin/teei_daemon
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
-vendor/lib/hw/gatekeeper.beanpod.so
 vendor/lib/libTEECommon.so
 vendor/lib/libimsg_log.so
 
