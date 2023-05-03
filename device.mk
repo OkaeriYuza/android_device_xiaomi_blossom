@@ -85,14 +85,14 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@3.0.vendor \
-    android.hardware.keymaster@4.0.vendor \
     libkeymaster4.vendor \
     libkeymaster4support.vendor \
-    libkeymaster_messages.vendor \
-    libkeymaster_portable.vendor \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor
+
+PRODUCT_PACKAGES += \
+    libkeystore-wifi-hidl \
+    libkeystore-engine-wifi-hidl
 
 # GNSS
 PRODUCT_PACKAGES += \
