@@ -3,6 +3,14 @@
 # begonia-11 blobs from Redmi/begonia/begonia:11/RP1A.200720.011/V12.5.4.0.RGGCNXM:user/release-keys
 # Teracube 2e blobs from Teracube/Teracube_2e/Teracube_2e:11/RP1A.200720.011/202111011925:user/release-keys
 
+# AEE - from merlin-11
+vendor/lib/libaedv.so|0338e7a75ab3727f1f2345e31c09809e0b1acc0c
+vendor/lib/libladder.so|b3161af9c1ae115b467ed6d210355348717145c8
+vendor/lib64/libaedv.so|283f2df71e8ecf26e56d4a8fd478cdf6e1a67413
+vendor/lib64/libladder.so|47ab171fde2026c25c0c63f0af9bfcee3fcd74a9
+vendor/lib/libudf.so|0910236ff7b602a7ee4b6cf5472b5cff0d301f52
+vendor/lib64/libudf.so|00563b48abe3e19856133a87775363a9ef98c049
+
 # aptX - from begonia-11
 lib64/libaptX_encoder.so|9e87fed4eac0e9fe428eaf8d0db7a1af89d521e1
 lib64/libaptXHD_encoder.so|043c055498f6e6e2b0564ad35ea17b012844cbce
@@ -11,11 +19,8 @@ lib64/libaptXHD_encoder.so|043c055498f6e6e2b0564ad35ea17b012844cbce
 vendor/lib/hw/audio.primary.mt6765.so
 vendor/lib/hw/audio.r_submix.mt6765.so
 vendor/lib/hw/audio.usb.mt6765.so
-vendor/lib/libaedv.so
 vendor/lib/libaudiocustparam_vendor.so
 vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libladder.so
-vendor/lib64/libladder.so
 
 # Audio configs
 etc/audio_effects.conf
@@ -341,7 +346,6 @@ vendor/lib/libmtkcam_tuning_utils.so
 vendor/lib/libmtkcam_ulog.so
 vendor/lib/libpq_prot.so
 vendor/lib/libstereoinfoaccessor_vsdof.so
-vendor/lib/libudf.so
 vendor/lib/libvcodec_utility.so
 vendor/lib/libwa_ancbase.so
 vendor/lib/libwa_depth.so
