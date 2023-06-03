@@ -25,6 +25,9 @@ ro.surface_flinger.uclamp.min=130
 # DRM
 drm.service.enabled=true
 
+# Logd
+ro.logd.kernel=false
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
