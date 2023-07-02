@@ -30,6 +30,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
+# Kernel - Prebuilt
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)-kernel/dtb.img:dtb.img \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)-kernel/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
