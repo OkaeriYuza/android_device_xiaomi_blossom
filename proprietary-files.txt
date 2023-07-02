@@ -1067,8 +1067,6 @@ vendor/etc/ecc_list_OP17.xml
 vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/ecc_list_preference.xml
-vendor/etc/fstab.mt6762
-vendor/etc/fstab.mt6765
 vendor/etc/fstb.cfg
 vendor/etc/meow.cfg
 vendor/etc/mkshrc

@@ -61,6 +61,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.mt6762 \
     fstab.mt6765 \
+    fstab.mt6762_ramdisk \
+    fstab.mt6765_ramdisk
+
+PRODUCT_PACKAGES += \
     init.ago.rc \
     init.connectivity.rc \
     init.modem.rc \
@@ -69,10 +73,6 @@ PRODUCT_PACKAGES += \
     init.mt6765.usb.rc \
     init.project.rc \
     init.sensor_1_0.rc \
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6762:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6762 \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6765
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
