@@ -147,5 +147,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # Inherit the proprietary files
 include vendor/xiaomi/blossom/BoardConfigVendor.mk
