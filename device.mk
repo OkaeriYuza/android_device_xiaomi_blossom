@@ -173,6 +173,12 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0.vendor \
+    android.hardware.thermal@2.0.vendor \
+    android.hardware.thermal@1.0-impl
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk.vendor \
