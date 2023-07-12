@@ -340,7 +340,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayBlossom \
     SettingsOverlayBlossom \
-    SystemUIOverlayBlossom
+    SystemUIOverlayBlossom \
+    TelephonyOverlayBlossom
 
 # Sensors
 PRODUCT_PACKAGES += \
