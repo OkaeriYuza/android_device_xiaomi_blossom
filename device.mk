@@ -44,6 +44,11 @@ PRODUCT_COPY_FILES += \
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 
+# HACK: Avoid usb crash
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
+    persist.adb.nonblocking_ffs=0 \
+    ro.adb.nonblocking_ffs=0
+
 # Rootdir
 PRODUCT_PACKAGES += \
     install-recovery.sh \
