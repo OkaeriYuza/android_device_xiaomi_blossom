@@ -1,0 +1,1 @@
+allow init proc_devices:file r_file_perms;
