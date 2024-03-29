@@ -164,6 +164,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# Wi-Fi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
