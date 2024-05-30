@@ -13,3 +13,6 @@ genfscon sysfs /devices/virtual/input/input6/wakeup u:object_r:sysfs_wakeup:s0
 
 # eMMC
 genfscon sysfs /devices/platform/bootdevice/mmc_host/mmc0/mmc0:0001/block/mmcblk0/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
+
+# DT2W
+genfscon proc  /proc/tp_gesture                         u:object_r:proc_tp:s0
