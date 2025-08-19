@@ -30,3 +30,11 @@
 
 # WiFi
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@[0-9]\.[0-9]-service-lazy\.blossom 		u:object_r:hal_wifi_default_exec:s0
+
+# VoLTE
+/(system\/vendor|vendor)/bin/volte_imcb.angelicain u:object_r:volte_imcb_exec:s0
+/(system\/vendor|vendor)/bin/volte_imcb.dandelion u:object_r:volte_imcb_exec:s0
+/(system\/vendor|vendor)/bin/volte_stack.angelicain u:object_r:volte_stack_exec:s0
+/(system\/vendor|vendor)/bin/volte_stack.dandelion u:object_r:volte_stack_exec:s0
+/(system\/vendor|vendor)/bin/volte_ua.angelicain u:object_r:volte_ua_exec:s0
+/(system\/vendor|vendor)/bin/volte_ua.dandelion u:object_r:volte_ua_exec:s0
