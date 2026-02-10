@@ -587,4 +587,7 @@
          is disableable for products for which it is irrelevant. -->
     <bool name="config_useVolumeKeySounds">false</bool>
 
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
+
 </resources>
