@@ -19,6 +19,9 @@ $(call inherit-product, vendor/kasumi/config/common_full_phone.mk)
 # Kasumi flags
 KASUMI_INCLUDE_GCGOP := true
 
+# Kasumi reLive flags
+TARGET_EXCLUDE_ADB_ROOT := true
+
 PRODUCT_DEVICE := blossom
 PRODUCT_NAME := kasumi_blossom
 PRODUCT_BRAND := Redmi
