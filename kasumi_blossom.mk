@@ -21,6 +21,7 @@ KASUMI_INCLUDE_GCGOP := true
 
 # Kasumi reLive flags
 TARGET_EXCLUDE_ADB_ROOT := true
+TARGET_EXCLUDE_LOS_EXTRA_CLI_UTILS := true
 
 PRODUCT_DEVICE := blossom
 PRODUCT_NAME := kasumi_blossom
