@@ -1,0 +1,50 @@
+# Audio
+audio.chk.cal.spk=0
+audio.chk.cal.us=0
+ro.audio.silent=0
+
+# Display
+ro.opengles.version=196610
+ro.vendor.cabc.enable=true
+vendor.display.enable_default_color_mode=0
+
+# Wi-Fi
+ro.wifi.channels=
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
+
+# Miscellaneous
+Build.BRAND=MTK
+dalvik.vm.dexopt.secondary=true
+mediatek.wlan.ctia=0
+net.bt.name=Android
+persist.bg.dexopt.enable=true
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.debug.dalvik.vm.core_platform_api_policy=just-warn
+persist.sys.df.extcolor.proc=0
+qemu.hw.mainkeys=0
+ro.arrow.device=blossom
+ro.camera.sound.forced=0
+ro.colorpick_adjust=true
+ro.iorapd.enable=false
+ro.kernel.zio=38,108,105,16
+ro.mediatek.wlan.p2p=1
+ro.mediatek.wlan.wsc=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+ro.mtk_perf_simple_start_win=1
+ro.sys.usb.bicr=no
+ro.sys.usb.charging.only=yes
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.vendor.df.effect.conflict=1
+ro.zygote.preload.enable=0
+sys.ipo.disable=1
+sys.ipo.pwrdncap=2
+sys.paper_mode_max_level=255
+vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=mtk-ril.so
+
