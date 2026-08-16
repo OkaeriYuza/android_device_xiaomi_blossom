@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.mt6762 \
+    fstab.mt6765 \
     init.ago.rc \
     init.connectivity.rc \
     init.modem.rc \
@@ -50,7 +51,8 @@ PRODUCT_PACKAGES += \
     init.sensor_1_0.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6762:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6762
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6762:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6762 \
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6765
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
