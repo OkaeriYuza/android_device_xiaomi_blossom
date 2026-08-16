@@ -26,7 +26,6 @@ persist.dbg.wfc_avail_ovr=1
 persist.debug.dalvik.vm.core_platform_api_policy=just-warn
 persist.sys.df.extcolor.proc=0
 qemu.hw.mainkeys=0
-ro.arrow.device=blossom
 ro.camera.sound.forced=0
 ro.colorpick_adjust=true
 ro.iorapd.enable=false

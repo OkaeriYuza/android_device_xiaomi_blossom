@@ -1,4 +1,4 @@
-# Android device tree for Redmi arrow_blossom (blossom)
+# Android device tree for Redmi blossom (blossom)
 
 ```
 #
