@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/xiaomi/blossom
 
+# OTA
+TARGET_OTA_ASSERT_DEVICE := dandelion,angelica,angelican,cattail,angelicain,blossom
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
