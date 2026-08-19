@@ -858,8 +858,6 @@ vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Miscellaneous
-vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_1
 vendor/bin/hw/vendor.focaltech.fingerprint@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
