@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/xiaomi/blossom
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := dandelion,angelica,angelican,cattail,angelicain,blossom
 
