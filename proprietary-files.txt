@@ -584,6 +584,39 @@ vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/bin/fuelgauged
 vendor/etc/init/fuelgauged_init.rc
 
+# IMS (System)
+bin/vtservice
+etc/init/init.vtservice.rc
+-framework/mediatek-common.jar
+-framework/mediatek-framework.jar
+-framework/mediatek-ims-base.jar
+-framework/mediatek-ims-common.jar
+-framework/mediatek-ims-extension-plugin.jar
+-framework/mediatek-ims-legacy.jar
+-framework/mediatek-telecom-common.jar
+-framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-common.jar
+lib/libaudioclient-v30.so
+lib/libaudioutilmtk.so
+lib/libcomutils.so
+lib/libgui-v30.so
+lib/libimsma.so
+lib/libimsma_adapt.so
+lib/libimsma_rtp.so
+lib/libimsma_socketwrapper.so
+lib/libmtk_vt_service.so
+lib/libmtk_vt_wrapper.so
+lib/libsignal.so
+lib/libsink.so
+lib/libsource.so
+lib/libvcodec_cap.so
+lib/libvcodec_capenc.so
+lib/libvt_avsync.so
+lib64/libmtk_vt_wrapper.so
+lib64/libvcodec_cap.so
+lib64/libvcodec_capenc.so
+-priv-app/ImsService/ImsService.apk
+
 # Keymaster - from merlin-11
 vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod|f01a08c86d12db23fccf3b681f4c9c57ea805d42
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service|62fded90be71e5522b6028a7198f0d00a3f2acc6
