@@ -558,6 +558,7 @@ vendor/bin/mnld
 vendor/bin/mtk_agpsd
 vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc
 vendor/etc/init/mtk_agpsd_p.rc
+vendor/lib/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib/hw/gps.default.so
 vendor/lib/libDR.so
 vendor/lib/libmnl.so
