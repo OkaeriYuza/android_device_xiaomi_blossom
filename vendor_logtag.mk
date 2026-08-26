@@ -313,5 +313,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.thermal_repeater=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.wpfa_iptable_android=$(VENDOR_LOG_LEVEL)
 
-PRODUCT_VENDOR_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag=$(WIDE_LOG_LEVEL)
