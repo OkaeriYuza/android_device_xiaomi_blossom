@@ -534,6 +534,8 @@ vendor/lib/libwvhidl.so
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/permissions/com.fingerprints.extension.xml
+-vendor/framework/com.fingerprints.extension.jar
 vendor/lib/hw/fingerprint.focaltech.default.so
 vendor/lib/hw/fingerprint.fpc.default.so
 vendor/lib/com.fingerprints.extension@1.0.so
@@ -1058,7 +1060,6 @@ vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin
 vendor/firmware/soc3_0_ram_mcu_1_1_hdr.bin
 vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin
 vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin
-vendor/framework/com.fingerprints.extension.jar
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib/gc_gc02m10_ii_tuning.so
