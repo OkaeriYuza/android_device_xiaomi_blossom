@@ -1143,6 +1143,7 @@ vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libmtktinyxml.so
 vendor/lib/libneuropilot_hal_utils.so
+vendor/lib/libpixelflinger.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpkm.so
 vendor/lib/libpowerhal.so
@@ -1183,6 +1184,7 @@ vendor/lib64/libPVRScopeServices.so
 vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libminiui.so
 vendor/lib64/libmpvr.so
+vendor/lib64/libpixelflinger.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libwifitest.so
 vendor/usr/keylayout/uinput-focaltech.kl
