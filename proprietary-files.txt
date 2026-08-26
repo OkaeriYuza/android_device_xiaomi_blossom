@@ -143,6 +143,7 @@ vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 # Camera
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
+vendor/lib/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib/gc_gc02m10_ii_IdxMgr.so
