@@ -433,6 +433,12 @@ vendor/bin/libccu_ov_ov02b_iiii.pm
 vendor/bin/libccu_ov_ov02b_v.dm
 vendor/bin/libccu_ov_ov02b_v.pm
 
+# Charger
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
