@@ -3,13 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-// Init scripts
-sh_binary {
-    name: "install-recovery.sh",
-    src: "bin/install-recovery.sh",
-    vendor: true,
-}
-
 // Init configuration files
 prebuilt_etc {
     name: "init.ago.rc",

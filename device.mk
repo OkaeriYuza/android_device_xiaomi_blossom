@@ -301,9 +301,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES := \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    install-recovery.sh \
-
-PRODUCT_PACKAGES += \
     fstab.mt6762 \
     fstab.mt6765 \
     fstab.mt6762_ramdisk \
