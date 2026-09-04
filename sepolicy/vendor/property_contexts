@@ -6,7 +6,6 @@ persist.wa.log.level                                    u:object_r:mtk_camera_pr
 # RIL
 ro.vendor.oem.sno                               u:object_r:vendor_sno_prop:s0
 ro.vendor.oem.psno                              u:object_r:vendor_sno_prop:s0
-ro.vendor.ril                                   u:object_r:vendor_public_vendor_default_prop:s0
 ro.vendor.ril.svlte1x                      u:object_r:vendor_radio_prop:s0
 ro.vendor.ril.svdo                         u:object_r:vendor_radio_prop:s0
 
